@@ -1,0 +1,20 @@
+¿Cuántos objetos jugador hay?
+El número de objetos jugador puede variar dependiendo de la implementación específica. Por lo general, habrá un objeto jugador por cada jugador en el campo.
+
+¿Puede variar el número de objetos jugador?
+Sí, el número de objetos jugador puede variar durante el transcurso de un partido, ya que pueden entrar y salir jugadores sustitutos.
+
+¿Tiene sentido que haya objetos árbitro?
+Sí, tiene sentido modelar objetos árbitro, ya que los árbitros son una parte fundamental de un partido de fútbol y realizan diversas acciones y toman decisiones durante el juego.
+
+¿Tiene sentido que haya clases Defensa o Porter?
+Sí, tiene sentido modelar las clases Defensa y Porter para representar las diferentes posiciones de los jugadores en el campo. Esto puede ser útil para gestionar las diferentes responsabilidades y características de los jugadores en esas posiciones.
+
+¿Tiene sentido que el número de la camiseta sea un atributo del jugador?
+Sí, tiene sentido que el número de camiseta sea un atributo del jugador, ya que es una característica común para identificar a los jugadores en el campo.
+
+¿Y si dos jugadores pueden intercambiar la camiseta entre ellos?
+En un sentido realista, los jugadores generalmente no intercambian camisetas durante un partido, pero desde una perspectiva de modelado, podrías permitir esta funcionalidad si es relevante para tu aplicación. Puedes implementar métodos para que los jugadores intercambien sus números de camiseta si es necesario.
+
+¿Tiene sentido que un objeto árbitro tenga una operación "recibirTarjeta"?
+Sí, tiene sentido que un objeto árbitro tenga una operación "recibirTarjeta" si deseas modelar la capacidad del árbitro para mostrar tarjetas (como tarjetas amarillas o rojas) a los jugadores como parte de su rol de aplicación de las reglas del juego.
