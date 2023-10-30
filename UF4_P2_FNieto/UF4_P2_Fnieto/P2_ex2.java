@@ -1,5 +1,6 @@
 package UF4_P2_Fnieto;
 
+//Pido los nombres de las clases exactas, no puedes poner P2_ex2 en este caso.
 public class P2_ex2 {
     private int valorPrimari;
     private int valorSecundari;

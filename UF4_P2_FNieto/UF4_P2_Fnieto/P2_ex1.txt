@@ -9,6 +9,7 @@ Sí, tiene sentido modelar objetos árbitro, ya que los árbitros son una parte 
 
 ¿Tiene sentido que haya clases Defensa o Porter?
 Sí, tiene sentido modelar las clases Defensa y Porter para representar las diferentes posiciones de los jugadores en el campo. Esto puede ser útil para gestionar las diferentes responsabilidades y características de los jugadores en esas posiciones.
+-- NO tiene sentido. Un jugador puede empezar el partido de defensa y acabar de delantero o de portero y si lo hacemos con clases distintas un objeto no puede nunca cambiar de classe. Tiene sentido que sea un atributo.
 
 ¿Tiene sentido que el número de la camiseta sea un atributo del jugador?
 Sí, tiene sentido que el número de camiseta sea un atributo del jugador, ya que es una característica común para identificar a los jugadores en el campo.
@@ -18,3 +19,4 @@ En un sentido realista, los jugadores generalmente no intercambian camisetas dur
 
 ¿Tiene sentido que un objeto árbitro tenga una operación "recibirTarjeta"?
 Sí, tiene sentido que un objeto árbitro tenga una operación "recibirTarjeta" si deseas modelar la capacidad del árbitro para mostrar tarjetas (como tarjetas amarillas o rojas) a los jugadores como parte de su rol de aplicación de las reglas del juego.
+-- Piensa que seria "mostrarTarjeta" y no recibirTarjeta, pero bueno... aceptamos pulpo como animal de compañía.

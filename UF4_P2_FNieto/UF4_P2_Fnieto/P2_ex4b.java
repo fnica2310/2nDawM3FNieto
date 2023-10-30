@@ -5,8 +5,8 @@ public class P2_ex4b {
         date.setDay(31);
         date.setMonth(2);
         date.setYear(2023);
-        date.setDay(15);
-        date.setMonth(7);
+        date.setDay(29);
+        date.setMonth(2);
         date.setYear(2024);
         System.out.println("Fecha: " + date);
     }

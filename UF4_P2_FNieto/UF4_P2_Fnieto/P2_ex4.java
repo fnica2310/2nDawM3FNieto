@@ -1,4 +1,5 @@
 package UF4_P2_Fnieto;
+//Pido los nombres de las clases exactas, no puedes poner P2_ex4 en este caso.
 public class P2_ex4 {
     private int day;
     private int month;
@@ -45,6 +46,7 @@ public class P2_ex4 {
         if (month == 4 || month == 6 || month == 9 || month == 11) {
             maxDaysInMonth = 30;
         } else if (month == 2) {
+        	//No hemos dado las terciarias aún... así que es sospechoso su uso...
             maxDaysInMonth = isLeapYear(year) ? 29 : 28;
         }
         return day <= maxDaysInMonth;

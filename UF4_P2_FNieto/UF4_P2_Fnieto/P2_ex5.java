@@ -24,5 +24,6 @@ public class P2_ex5 {
     public String toString() {
         return real + ", " + imaginary;
     }
+    //Las buenas prácticas definen las constantes justo antes de los atributos.
     public static final P2_ex5 ZERO = new P2_ex5(0, 0);
 }
